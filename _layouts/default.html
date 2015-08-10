@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="c4c">
+  <head>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href="img/fav.ico"
+      rel="shortcut icon"
+      sizes="16x16 24x24 32x32 64x64"
+      type="image/x-icon">
+
+    {% include meta.html %}
+  </head>
+
+
+  <body>
+    <div id="fb-root"></div>
+    <!-- Header -->
+    {% include header.html %}
+
+    <!-- Nav -->
+    {% include breadcrumbs.html %}
+
+    <!-- Content -->
+    {{ content }}
+
+    {% include footer.html %}
+
+    {% include cdn.html %}
+  </body>
+</html>

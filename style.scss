@@ -1,0 +1,131 @@
+---
+---
+
+
+
+
+@import "fonts";
+
+
+/* General Settings
+***********************************************************/
+html {
+  overflow-x: none;
+}
+
+a,
+a:hover,
+a:visited {
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+}
+
+
+/* Header
+***********************************************************/
+header {}
+
+.mst {
+  height: auto;
+  min-width:100%; max-width:100%;
+  position:center;
+}
+
+.mast {
+  margin:0;
+  padding:25px 5px;
+}
+
+.sub-mast {
+  margin:0;
+  padding:0;
+}
+
+.social-stuff {
+  display:inline-block;
+}
+
+
+/* Body
+***********************************************************/
+body {
+  margin:auto;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.item-pad {
+  padding-bottom: 0px;
+}
+
+
+.p-trim {
+  margin: 0;
+}
+
+.item-break {
+  clear:both;
+}
+
+
+/* Footer
+***********************************************************/
+footer {
+  text-align    : center;
+  background    : #eee;
+  border-radius : 5px;
+  padding       : 2px 0 0 0;
+}
+
+
+/* Device Scaling
+***********************************************************/
+/* Small Phones*/
+@media screen and (min-width:384px) {
+  .social-stuff {
+    display:inline-flex !important;
+    padding:0 8px!important;
+  }
+}
+
+/* Large Phones
+@media and screen (min-width:512px) {}
+*/
+
+/* Tablets/Netbooks
+@media screen and (min-width:768px) {}
+*/
+
+/* Laptops/Desktop */
+@media screen and (min-width:1024px) {
+  .p-trim {
+    margin: 0 20%;
+  }
+
+  .item-break {
+    clear:none;
+  }
+
+  .mid-graphic {
+    margin:0px 0;
+  }
+}
+
+/* HighDPI */
+@media screen and (min-width:1337px) {}
+
+
+/* External
+***********************************************************/
+@import "highlights";
+@import "svg-icons";
+
+
+.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}
+.navbar {min-height:40px !important}

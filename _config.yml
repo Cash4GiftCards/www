@@ -1,0 +1,59 @@
+## Organization Details
+name: We Pay Cash For Gift Cards
+email:
+
+
+## Site Details
+title:       "Team Leviathan"
+url:         "http://teamleviathan.com/"
+#baseurl:
+permalink:   /:categories/:year-:month-:day-:title/
+timezone:    America/New_York
+
+
+## MetaData
+keywords:    "we pay cash for gift cards sell your gift cards central florida flagler county volusia county st augustine palm coast bunnell ormond beach holly hill daytona beach south daytona port orange nsb new smyrna beach edgewater de land deland debary sanford palatka lake mary orlando"
+description: "We pay cash for gift cards, merchandise return cards, merchandise credit cards, gift certificates, and store credit cards.Come in with your gift card and turn it into cash today! No limits. No hassle."
+
+
+## Social Networking
+footer-links:
+  google_analytics:
+  email:
+  github:
+
+  facebook: wepaycashforgiftcards
+  instagram:
+  twitter: GiftCardSales
+  youtube: # channel/<your_long_string> or user/<user-name>
+  disqus:
+
+
+## Ruby Config
+gems:
+  - jemoji                  # Emoji please!
+  - jekyll-sitemap          # Create a sitemap using the official Jekyll sitemap gem
+
+markdown: redcarpet
+
+maruku:
+  use_tex: true
+
+kramdown:
+  input: GFM
+  use_coderay: true
+
+coderay:
+  coderay_tab_width: 2
+
+sass:
+  sass_dir: _sass
+  style: compressed         # nested|expanded|compact|compressed
+  compile_in_place: false   # true|false
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+
